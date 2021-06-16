@@ -1,0 +1,30 @@
+<?php
+
+?>
+<DOCTYPE HTML>
+<html>
+	<head>
+		<title>Committee Elections</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body style="background-color:#7f8c8d">
+		
+		<div id="main">	
+		   <center>
+			  <h2>TSEC Committee Elections</h2>
+			  <img src="img/tsec.jpg" class="image" >	
+		   </center>
+		 
+		   <form class="myform" action="election.php" method="post">
+				<label><b>Commitee Name </label><br>
+				<input type="submit" class="inputvalues" placeholder="Select Committee"><br>
+				<label><b>Position </label><br>
+				<input type="submit" class="inputvalues" placeholder="Select Position"><br>
+				<label><b>Winner </label><br>
+				<input type="text" class="inputvalues" placeholder="Select Candidate"><br>
+		        
+		   </form>
+		</div>
+		
+	</body>
+</html>
